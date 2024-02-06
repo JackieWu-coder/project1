@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/divider_horizontal_dim_dark"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@android:drawable/divider_horizontal_bright"
+            android:title="Exam" />
+        <item
+            android:id="@+id/nav_assignment"
+            android:icon="@android:drawable/divider_horizontal_bright"
+            android:title="Assignment"/>
+        <item
+            android:id="@+id/nav_to_do_list"
+            android:icon="@android:drawable/divider_horizontal_bright"
+            android:title="To-Do List" />
+    </group>
+</menu>
